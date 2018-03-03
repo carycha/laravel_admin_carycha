@@ -1,1 +1,0 @@
-# laravel_admin_carycha
