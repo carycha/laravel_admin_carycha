@@ -3,7 +3,6 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Encore\Admin\Config\Config;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -15,7 +14,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        Config::load();  // 用來啟動extention config
     }
 
     /**
